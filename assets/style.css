@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+.logo{
+   display: flex;
+}
+.bar {
+  background-color: #f9f9fb;
+  padding: 15px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+}
+.content {
+  max-width: 1440px;
+  margin: auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0, 15rem) 1fr minmax(0, 15rem); /* Ajustado para uma distribuição mais fluida */
+  padding: 1rem;
+}
+/* Estilo para o rodapé */
+footer {
+  min-height: 100px;
+  border-top: 1px solid #cdcdcd;
+  text-align: center;
+}
+
+/* Estilo para o artigo */
+section {
+  border-left: 1px solid #cdcdcd;
+   padding: 15px;
+}
+
+/* Estilo para a navegação */
+nav {
+  border-right: 1px solid #cdcdcd;
+  padding: 15px;
+}
+
+/* Estilo para figuras */
+figure {
+  text-align: center;
+}
